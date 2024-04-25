@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:wght@400;700&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+.cabecalho {
+  background-color: #202660ee;
+  color:white;
+  display:flex;
+  justify-content: space-around; 
+  align-items:center;
+  padding: 24px 0;
+}
+.cabecalho-imagem{
+width: 20%;
+}
+
+.cabecalho-lista-item{
+  display: inline-blocK;
+  margin:0 16px;
+  font-size: 24px;
+}
+.escola-imagem{
+  width: 25%;
+}
+
+.escola{
+  background-image: linear-gradient(#D2BBBB, #6AADD3);
+  color: #0d134aee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.escola-div-conteudo{
+width: auto;
+}
+
+.escola-titulo{
+  padding: 30px;
+}
+
+.estudante-imagem{
+  width: 65px;
+}
+
+.estudante-icone{
+  width: 24px;
+padding: 4px 8 px;
+}
+.estudante{
+  background-image: linear-gradient(#c9cdbf,#968fab);
+  padding: 20px 0;
+}
+.estudante_titulo{
+  padding: 20px;
+  text-align: center;
+}
+.estudantes_todos{
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: space-around;
+}
+.estudante_div{    
+  align-items: center;
+}
+.rodape{
+  background-color: rgb(119, 112, 150);
+  text-align: center;
+}
+
+.rodape-imagem{
+  height: 60px;
+  padding: 12px 0;
+}
+.localizacao{
+  width: 25px;
+}
+.icone-rodape{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: Brush Script MT;
+}
+.localizacao{
+  color: antiquewhite;
+}
+.texto-rodape{
+  color: black;
+  text-align: center;
+  
+}
+
